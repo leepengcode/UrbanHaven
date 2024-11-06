@@ -4,7 +4,7 @@ import BrowseCard from "./BrowseCard";
 
 const Browse = () => {
   return (
-    <div className="min-h-96 md:mx-[] lg:mx-[16.5%] px-4 mt-14 mb-16 flex flex-col">
+    <div className="min-h-96 md:mx-[10%] lg:mx-[16.5%] lg:px-4 mt-14 mb-16 flex flex-col">
       <h3 className="font-bold text-[1.5rem] mb-5">
         Browse Homes By Categories
       </h3>

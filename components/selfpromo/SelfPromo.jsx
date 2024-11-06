@@ -36,16 +36,16 @@ const SelfPromo = () => {
   }
 
   return (
-    <div className="w-full h-[900px] flex items-center relative bg-gray-200 shadow-md">
-      <div className="flex items-center justify-between absolute w-full brightness-50 opacity-80 ">
+    <div className="w-full h-[600px] flex items-center relative bg-gray-200 shadow-md">
+      <div className="flex items-center justify-between absolute w-full brightness-50 opacity-90 ">
         <div className="flex w-full items-center ">
           <Collage />
         </div>
       </div>
 
-      <div className="z-[100] w-full h-full flex items-center relative">
-        {/*back*/}
-        <div className="z-50 flex w-full h-full absolute">
+      {/* <div className="z-[100] w-full h-full flex items-center relative"> */}
+      {/*back*/}
+      {/* <div className="z-50 flex w-full h-full absolute">
           <img
             src="https://static.rdc.moveaws.com/images/hero/hp-local-desktop-cube.avif"
             alt=""
@@ -79,10 +79,10 @@ const SelfPromo = () => {
               )}px, ${calculateParallax(0.02, "y")}px)`,
             }}
           />
-        </div>
+        </div> */}
 
-        {/*front*/}
-        <div className="z-[60] flex w-full h-full items-center absolute ">
+      {/*front*/}
+      {/* <div className="z-[60] flex w-full h-full items-center absolute ">
           <img
             src="https://www.sidewalkdog.com/wp-content/uploads/2021/07/full-shot-woman-working-with-cute-dog-1.jpg"
             alt=""
@@ -138,8 +138,8 @@ const SelfPromo = () => {
               )}px, ${calculateParallax(0.08, "y")}px)`,
             }}
           />
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
       <div className="w-full h-60 flex flex-col items-center justify-center space-y-5 z-[100] absolute">
         <p className="w-full grid place-content-center font-bold text-[1.75rem] text-white text-shadow">
           UrbanHaven - All the best living spaces you seek, in one place.
