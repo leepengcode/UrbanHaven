@@ -4,12 +4,12 @@ import BrowseCard from "./BrowseCard";
 
 const Browse = () => {
   return (
-    <div className="min-h-96 md:mx-[10%] lg:mx-[16.5%] lg:px-4 mt-14 mb-16 flex flex-col">
+    <div className="min-h-96 md:mx-[10%]  lg:px-4 mt-14 mb-16 flex flex-col">
       <h3 className="font-bold text-[1.5rem] mb-5">
         Browse Homes By Categories
       </h3>
 
-      <div className="grid grid-cols-4 gap-4 place-items-center">
+      <div className="grid grid-cols-4 gap-8  place-items-center">
         <BrowseCard
           image="https://ar.rdcpix.com/a529e6cef819c2ba41307f421e4ad7b0c-f3922270992rd-w1280_h960.webp"
           title="Newest Listings"

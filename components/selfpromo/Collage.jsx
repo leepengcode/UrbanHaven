@@ -21,7 +21,7 @@ const Collage = () => {
       <img
         src="https://rentforevent.com/wp-content/uploads/2024/03/10-BBQ-Party-Ideas-for-Adults-That-Are-Easy-to-Plan-4-1536x864.jpg"
         alt="Family-sized homes"
-        className="lg:max-w-[600px] max-w-[300px] h-[200px] lg:h-[400px] lg:object-cover left-[68.47%] self_promo_img_right absolute z-20"
+        className="lg:max-w-[479px] max-w-[300px] h-[200px] lg:h-[400px] lg:object-cover left-[68.47%] self_promo_img_right absolute z-20"
       />
     </div>
   );

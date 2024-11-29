@@ -3,7 +3,7 @@ import Topbar from "./topbar/Topbar";
 
 const Navigations = () => {
   return (
-    <div>
+    <div className="fixed w-full z-[999]">
       <Topbar />
     </div>
   );
