@@ -5,7 +5,7 @@ import { LuSearch } from "react-icons/lu";
 const SearchBar = () => {
   const [isSearching, setIsSearching] = useState(false);
   const inputRef = useRef();
-  useEffect(() => {});
+  useEffect(() => { });
 
   return (
     <div className="group w-[30%] rounded-full absolute top-[72%] flex place-items-center justify-between py-1 px-1 bg-gray-100 hover:bg-white cursor-text border-4 border-gray-100 hover:border-purple-100 ">
